@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 3rem;
+    background-color: #7a4949;
+    color: #959090;
+    text-align: center;
+}
+
+.active {
+    color: red;
+}
+
+.inactive {
+    color: grey;
+}

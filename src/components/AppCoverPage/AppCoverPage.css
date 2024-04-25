@@ -1,0 +1,58 @@
+/* My Code Starts Here */
+#core-concepts {
+    padding: 2rem;
+    padding-bottom: 10rem;
+    /* border-radius: 6px; */
+    background-color: #1d1e46;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* display: flex; */
+    box-sizing: content-box;
+}
+
+ul li {
+    float: left;
+    width: 250px;
+    height: 330px;
+    margin: 40px;
+    /* border: 1px solid goldenrod; */
+    border: 1px solid rgb(9, 255, 0);
+    background-color: #e7bb78;
+    /* display: inline-block; */
+}
+
+ul li button {
+    /* position: center; */
+    /* bottom: 100px; */
+    color: white;
+    background: #ff0000c2;
+}
+
+.examples {
+    color: whitesmoke;
+    text-align: left;
+}
+
+#examples-button {
+    color: whitesmoke;
+    background-color: #1d1e46;
+    float: left;
+    border-color: #1d1e46;
+}
+
+#examples-description {
+    color: whitesmoke;
+    float: left;
+}
+
+/* #examples-description {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #2f1d43;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  } */
