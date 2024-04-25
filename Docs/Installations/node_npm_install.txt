@@ -1,0 +1,179 @@
+HYD-ML-00064893:~ devireddy$ brew install node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/21.6.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for node: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates and openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+################################################################################################################################################################################################################### 100.0%
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:8102401653fe365896171eac88f20eefa5295ec699555af7275efe144f5e877d
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.25.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:e22273631fdd0c8dd691f27330355d33114fc9eee3540cda598a8d634038fac5
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/73.2
+################################################################################################################################################################################################################### 100.0%
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:4400e31a217d6ffcd2bd06e26ecbeed768133493bfcc4cb3c9ff9702f480beb6
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.58.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:aade94da572c92514434f1afe7617da53a0f777fcd06dece3f4ec59f26b5b0fe
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:d512e90e778bff53c92cb261dfc0d02f535405f63d784743a67776771b4f2356
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-12-12
+################################################################################################################################################################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:5c99ffd0861f01adc19cab495027024f7d890e42a9e7b689706b85c8e2b9c9b3
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+################################################################################################################################################################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:4133c86aed6859e2ad93a69330a2498ba8d0475d212c342790278709660789a2
+################################################################################################################################################################################################################### 100.0%
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:69db07ce7b5c1e8ea2f7572525cc6835f3232bb1805a2e1df2b594b8f786bc29
+################################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for node: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates and openssl@3
+==> Installing node dependency: brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/565098509cdfa90593ec9a41b41239f073843f88caed60ddaa3e6194ac4defda--brotli-1.1.0-1.bottle_manifest.json
+==> Pouring brotli--1.1.0.ventura.bottle.1.tar.gz
+🍺  /usr/local/Cellar/brotli/1.1.0: 24 files, 982.7KB
+==> Installing node dependency: c-ares
+==> Downloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.25.0
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/0eb731bb4c35c132b12a402113bd8502de48fb1390410bbea01881a5d04bfdb4--c-ares-1.25.0.bottle_manifest.json
+==> Pouring c-ares--1.25.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.25.0: 156 files, 1016.6KB
+==> Installing node dependency: icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/73.2
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/2e5082de52a2c85ae665e51f8d0de0651611397cb02f4b4e2bb37898ba52a629--icu4c-73.2.bottle_manifest.json
+==> Pouring icu4c--73.2.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/73.2: 268 files, 79.5MB
+==> Installing node dependency: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.58.0
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/9b2081d73959d4308c84740344d5f8169bbb9125dd76d20a71556a11a0171253--libnghttp2-1.58.0.bottle_manifest.json
+==> Pouring libnghttp2--1.58.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.58.0: 13 files, 722.7KB
+==> Installing node dependency: libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/bfee09d0f61c35b1a86c5b7a0f6b2f9e0a8b18a81bbd065f6eea7054b543f3ea--libuv-1.47.0.bottle_manifest.json
+==> Pouring libuv--1.47.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libuv/1.47.0: 19 files, 1MB
+==> Installing node dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-12-12
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/13aa86e429e05d02a76005d1881eaf625091a5ac4dc7d7674c706d12ba48796a--ca-certificates-2023-12-12.bottle_manifest.json
+==> Pouring ca-certificates--2023-12-12.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-12-12: 3 files, 226.7KB
+==> Installing node dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+Already downloaded: /Users/devireddy/Library/Caches/Homebrew/downloads/8e5415de690efd057f74775ab4b808fed9a50bf29c34ee9cb52118d189ef73a9--openssl@3-3.2.0_1.bottle_manifest.json
+==> Pouring openssl@3--3.2.0_1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.2.0_1: 6,805 files, 32.4MB
+==> Installing node
+==> Pouring node--21.6.0.ventura.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/node/21.6.0: 2,233 files, 64.6MB
+==> Running `brew cleanup node`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> node
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+
+
+
+
+HYD-ML-00064893:~ devireddy$ node -v
+v21.6.0
+HYD-ML-00064893:~ devireddy$ npm -v
+10.2.4
+
+
+
+HYD-ML-00064893:~ devireddy$ cd Documents/OneDrive\ -\ F5\ Networks
+HYD-ML-00064893:OneDrive - F5 Networks devireddy$ cd LEARNING/
+HYD-ML-00064893:LEARNING devireddy$ mkdir ReactApp
+HYD-ML-00064893:LEARNING devireddy$ cd ReactApp/
+HYD-ML-00064893:ReactApp devireddy$ ls -la
+total 0
+drwxr-xr-x   2 devireddy  OLYMPUS\Domain Users   64 Jan 18 23:47 .
+drwx------  15 devireddy  OLYMPUS\Domain Users  480 Jan 18 23:47 ..
+
+
+
+HYD-ML-00064893:ReactApp devireddy$ npm install
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/devireddy/Library/CloudStorage/OneDrive-F5Networks/LEARNING/ReactApp/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/devireddy/Library/CloudStorage/OneDrive-F5Networks/LEARNING/ReactApp/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in: /Users/devireddy/.npm/_logs/2024-01-18T18_18_12_269Z-debug-0.log
+
+
+
+
+HYD-ML-00064893:~ devireddy$ cd Documents/OneDrive\ -\ F5\ Networks/LEARNING/ReactApp/
+
+
+
+
+HYD-ML-00064893:ReactApp devireddy$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (reactapp)
+version: (1.0.0)
+description: My React App
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Akhila Devireddy
+license: (ISC)
+About to write to /Users/devireddy/Library/CloudStorage/OneDrive-F5Networks/LEARNING/ReactApp/package.json:
+
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "My React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akhila Devireddy",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+HYD-ML-00064893:ReactApp devireddy$ ls -la
+total 16
+drwxr-xr-x   4 devireddy  OLYMPUS\Domain Users  128 Jan 18 23:54 .
+drwx------  15 devireddy  OLYMPUS\Domain Users  480 Jan 18 23:47 ..
+-rw-r--r--   1 devireddy  OLYMPUS\Domain Users   87 Jan 18 23:48 package-lock.json
+-rw-r--r--   1 devireddy  OLYMPUS\Domain Users  232 Jan 18 23:54 package.json
+HYD-ML-00064893:ReactApp devireddy$ ls -la package.json
+-rw-r--r--  1 devireddy  OLYMPUS\Domain Users  232 Jan 18 23:54 package.json

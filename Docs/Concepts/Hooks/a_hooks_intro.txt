@@ -1,0 +1,13 @@
+Q. What are React Hooks?
+A. Hooks allow function components to have access to state and other React features. 
+Any builIn that starts with 'use' are React Hooks.
+
+
+Q. Give an example for a react hook?
+A. useState() or useEffect().
+
+
+Q. Conditions behind using a react hook?
+A. (i) React Hooks should reside directly inside a react component. Always use Hooks at the top level of React (not regular javascript) function, before any early returns.
+   (ii) React Hooks cannot be inside any nested functions, loops, conditions.
+   (iii) React Hooks can be called from custom Hooks.

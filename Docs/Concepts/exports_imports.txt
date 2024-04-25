@@ -1,0 +1,41 @@
+#################################### Default Exports-Imports ####################################
+1. 
+function Tesla() {}
+export default Tesla;
+
+import Tesla from “./America.js”;
+import abc from “./America.js”;     # Can also be imported using alias like this
+
+
+
+2.
+export default function () {}
+
+import Tesla from “./America.js”;
+import abc from “./America.js”;     # Can also be imported using alias like this
+
+
+
+#################################### Named Exports-Imports ####################################
+1.
+export function Tesla() {}
+
+import {Tesla} from “./America.js”;
+
+
+
+2. 
+export function Tesla() {}
+export function Tata() {}
+export function RockWell() {}
+
+import {Tata, RockWell, Tesla} from “./America.js”;   # Order of imports doesn't matter
+
+
+
+#################################### Default AND Named Exports-Imports ####################################
+export function Tesla() {}
+export default function Tata() {}
+export function RockWell() {}
+
+import abc, {RockWell, Tesla} from “./America.js”;   # Default should come first and without curly braces. Here 'abc' means 'Tata'

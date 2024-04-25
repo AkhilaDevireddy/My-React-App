@@ -1,0 +1,50 @@
+HYD-ML-00064893:ReactApp devireddy$ npm create vite@latest My-React-App
+✔ Package name: … my-react-app
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+
+Scaffolding project in /Users/devireddy/Library/CloudStorage/OneDrive-F5Networks/LEARNING/ReactApp/My-React-App...
+
+Done. Now run:
+
+  cd My-React-App
+  npm install
+  npm run dev
+
+
+
+
+
+
+HYD-ML-00064893:ReactApp devireddy$ ls -la
+total 16
+drwxr-xr-x   5 devireddy  OLYMPUS\Domain Users  160 19 Jan 00:15 .
+drwx------  15 devireddy  OLYMPUS\Domain Users  480 18 Jan 23:47 ..
+drwxr-xr-x@ 10 devireddy  OLYMPUS\Domain Users  320 19 Jan 00:15 My-React-App
+-rw-r--r--   1 devireddy  OLYMPUS\Domain Users   87 18 Jan 23:48 package-lock.json
+-rw-r--r--   1 devireddy  OLYMPUS\Domain Users  232 18 Jan 23:54 package.json
+
+
+
+HYD-ML-00064893:ReactApp devireddy$ cd My-React-App/
+
+
+
+HYD-ML-00064893:My-React-App devireddy$ npm install
+added 271 packages, and audited 272 packages in 44s
+97 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+
+
+
+HYD-ML-00064893:My-React-App devireddy$ npm run dev
+> my-react-app@0.0.0 dev
+> vite
+
+
+  VITE v5.0.11  ready in 777 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help

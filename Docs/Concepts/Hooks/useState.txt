@@ -1,0 +1,32 @@
+Q. What is State Hook in React?
+A. The React useState Hook allows us to track state in a function component.
+   State generally refers to data or properties that need to be tracking in an application.
+
+
+Q. What happens when a State Hook is called?
+A. It re-executes the entire component that has this hook.
+
+
+Q. How does State Hook looks like in React?
+A. useState() or React.useState()
+
+
+Q. Explain the usage of a State Hook in React with example?
+A. <code>
+        import { useState } from "react";
+        function FavoriteColor() {
+            const [color, setColor] = useState("white");
+            return (
+                <button type="button" onClick={() => setColor("blue")}>Blue</button>            # Works
+                <button type="button" onClick={() => setColor("red")}>Red</button>              # Works
+                <button type="button" onClick={() => (color = "yellow")}>Yellow</button>        # This doesn't work
+            );
+        }
+   </code>
+
+   In the above example, if we want to change the value of {color}, it won't work on UI. Because, components in React will be executed only once.
+   So, we use the react's state hook 'useState()'. 
+   Input can be a default value of {color}. 
+   Output will be an array with {color} itself and 'setColor' is a function that can be used to set the colors.
+   Once 'setColor' is called, a new state is set and so, the React Component that contains this hook reference will be re-executed.
+   And so, the value of {color} will be successfully changed and outputted on UI.
