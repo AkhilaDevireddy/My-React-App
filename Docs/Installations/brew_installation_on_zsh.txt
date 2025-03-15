@@ -1,0 +1,153 @@
+a.devireddy@KM44K924NR ReactApp % echo $0
+/bin/zsh
+
+
+
+
+a.devireddy@KM44K924NR ReactApp % echo >> /Users/a.devireddy/.zprofile
+a.devireddy@KM44K924NR ReactApp % echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/a.devireddy/.zprofile
+a.devireddy@KM44K924NR ReactApp % eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+
+
+a.devireddy@KM44K924NR ReactApp % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/bin/install -d -o root -g wheel -m 0755 /opt/homebrew
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /bin/mkdir -p /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /bin/chmod ug=rwx /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /bin/chmod go-w /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /usr/sbin/chown a.devireddy /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /usr/sbin/chown -R a.devireddy:admin /opt/homebrew
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /bin/mkdir -p /Users/a.devireddy/Library/Caches/Homebrew
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/a.devireddy/Library/Caches/Homebrew
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> /usr/bin/sudo /usr/sbin/chown -R a.devireddy /Users/a.devireddy/Library/Caches/Homebrew
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 295699, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (45/45), done.
+remote: Total 295699 (delta 0), reused 44 (delta 0), pack-reused 295654 (from 1)
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (33/33), done.
+remote: Total 55 (delta 33), reused 33 (delta 33), pack-reused 22 (from 1)
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:d9faa506c014dedc0b034a68103ba75c9a58242f4d6c67b6ca0f649c39602bcf
+######################################################################################################################################################## 100.0%
+==> Pouring portable-ruby-3.3.7.arm64_big_sur.bottle.tar.gz
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/a.devireddy/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/a.devireddy/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+
+
+
+
+a.devireddy@KM44K924NR ReactApp % brew update
+==> Updating Homebrew...
+Already up-to-date.
+
+
+
+a.devireddy@KM44K924NR ReactApp % sudo xcode-select -v
+Credentials Required: Before using this Sudo Command, you must first enter your credentials below.
+Password: 
+xcode-select version 2409.
+
+
+
+a.devireddy@KM44K924NR ReactApp % brew -v
+Homebrew 4.4.24
+
+
+
+
+
+a.devireddy@KM44K924NR ReactApp % brew help
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+a.devireddy@KM44K924NR ReactApp % 
