@@ -30,3 +30,8 @@ A. <code>
    Output will be an array with {color} itself and 'setColor' is a function that can be used to set the colors.
    Once 'setColor' is called, a new state is set and so, the React Component that contains this hook reference will be re-executed.
    And so, the value of {color} will be successfully changed and outputted on UI.
+
+Q. Are React States synchronous?
+A. State updates don't happen synchronously, but happens ASYNCHRONOUSLY within the same render cycle.
+   React doesn't immediately apply the new state value in the current render cycle.
+   Instead, React queues this state update to happen after the component finishes rendering.

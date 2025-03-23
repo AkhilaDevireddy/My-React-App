@@ -1,0 +1,53 @@
+The "render cycle" in React refers to the process by which React updates the DOM based on changes in the component's state or props. It describes how React efficiently re-renders components when certain conditions change, so that the UI can reflect the updated state.
+
+Let’s break it down:
+
+1. Initial Render (First time rendering the component):
+When a React component is first mounted, React goes through a render cycle to produce the UI. This happens when:
+
+A component is rendered for the first time (initial mount).
+
+React executes the code inside the component’s function (for functional components) and returns the JSX that represents the UI.
+
+2. When State or Props Change:
+React uses a virtual DOM to track changes in the state and props of the components. When a state or prop changes, React triggers a re-render (another run of the render function) to update the virtual DOM and eventually the actual DOM.
+
+Here’s what happens step-by-step:
+
+Step-by-Step Breakdown of the Render Cycle:
+State or Props Change: When a state or prop changes (e.g., by calling setState or setCalcValues), React marks the component as "dirty" or needing to be re-rendered. This does not immediately cause a re-render, but it sets up the next re-render cycle.
+
+React Schedules a Re-render: React batches updates and schedules a re-render. React will not immediately update the DOM after calling setState(). It waits for the current render cycle to finish and processes updates after.
+
+Re-running the Component Function: React runs the component's function again, effectively executing the code inside the component (including any JSX and hooks) to determine what the new UI should look like. React compares the new output (from the virtual DOM) to the previous one (diffing) and figures out which parts of the DOM need to be updated.
+
+Reconciliation: After the render function runs, React reconciles the virtual DOM with the actual DOM. This means React figures out which DOM elements have changed and updates them accordingly.
+
+DOM Update (Commit Phase): After React determines what needs to be updated, it applies these changes to the real DOM. This is called the commit phase.
+
+3. Render Cycle with Hooks:
+When you use state hooks like useState() in functional components, React will rerun the component's render function each time the state changes.
+
+State Change → React schedules a re-render.
+
+Re-render → React calls the function component again.
+
+Reconciliation → React compares the new render output with the previous one.
+
+Commit Phase → React updates the DOM.
+
+4. What Happens After the Render Cycle?
+After React updates the DOM, it may call useEffect() hooks (if you’ve defined them) to perform side effects, like fetching data or manipulating the DOM. These side effects are not part of the render cycle, but they run after the render is complete.
+
+Key Points:
+The render cycle involves React determining what needs to be updated in the DOM after a state or prop change.
+
+State updates are batched, and React waits to finish the current render cycle before updating the state and triggering another re-render.
+
+React uses a virtual DOM to efficiently calculate the minimum number of changes required to update the actual DOM.
+
+React schedules updates and runs the component function again to generate the new UI output.
+
+After rendering, side effects (in useEffect()) may run.
+
+The render cycle is critical for optimizing React's performance and ensuring that changes in state or props result in efficient updates to the UI.
